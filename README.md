@@ -52,10 +52,14 @@ Power on the server and connect the display in order to see the loading screen
 ![1.jpeg](/images/1.jpeg)
 
 ### Step 2:
-Looking at the loading screen press the F12 Key to enter the System Settings
+Looking at the loading screen press the F2 Key to enter the System Settings
 
 ![2.jpeg](/images/2.jpeg)
+
+Select `System BIOS` and make sure Secure Boot is `Disabled`
 ![3.jpeg](/images/3.jpeg)
+
+### Step 3:
 ![4.jpeg](/images/4.jpeg)
 ![5.jpeg](/images/5.jpeg)
 ![6.jpeg](/images/6.jpeg)
