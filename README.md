@@ -53,18 +53,33 @@ Power on the server and connect the display in order to see the loading screen
 
 ### Step 2:
 Looking at the loading screen press the F2 Key to enter the System Settings
+> [!NOTE]
+> Ignore the IP address change. I had to go back and recreate the steps 
+> To fully document this setup.
 
 ![2.jpeg](/images/2.jpeg)
 
 Select `System BIOS` and make sure Secure Boot is `Disabled`
 ![3.jpeg](/images/3.jpeg)
 
-### Step 3:
 ![4.jpeg](/images/4.jpeg)
+
+### Step 3:
+Go back and click into `Integrated Devices`. Make sure Integrated RAID Controller is set to `Enabled`.
 ![5.jpeg](/images/5.jpeg)
+
+### Step 4:
+Go back and click into `SATA Settings`. Make sure Embedded SATA is set to `RAID MODE`
 ![6.jpeg](/images/6.jpeg)
+
+### Step 5:
+At this point exit the menu and save all changes. Once saved restart the server and log back into `System Setup`. Under `Device Settings` you should now see `Integrated RAID Controller 1` with your hard drive name after that. 
 ![7.jpeg](/images/7.jpeg)
+
+### Step 7:
+Click the drive and click `Configuration Management` then `Create Virtual Disk`. Make sure to select your physical disk and the disk size will automatically be set. Name the virtual drive and keep the default settings and click `Create Virtual Disk`
 ![8.jpeg](/images/8.jpeg)
+
 ![9.jpeg](/images/9.jpeg)
 
 Make sure to select `Physical Disks` and put in the HDD or SDD you wish to use. In my case I only have a single SDD. Name your virtual disk and default settings are fine so click `Create Virtual Disk`
