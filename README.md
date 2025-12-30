@@ -56,6 +56,8 @@ screenshot
 
 ### Step 4: Update network settings to connect to Proxmox UI
 
+delete ISOs
+create snapshots
 ### Step 5: 
 
 ## Installing Proxmox
