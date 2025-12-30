@@ -42,6 +42,22 @@ Thunderbolt to Ethernet + USB
 
 ## Server Configuration
 
+### Step 1: Power on the server and connect the display in order to see the loading screen
+
+screenshot
+
+### Step 2: Looking at the loading screen press the F10 Key to enter the System Settings
+
+screenshot
+
+screenshot
+
+### Step 3: Download Proxmox onto a USB (Stable version)
+
+### Step 4: Update network settings to connect to Proxmox UI
+
+### Step 5: 
+
 ## Installing Proxmox
 
 ## Installing pfSense
