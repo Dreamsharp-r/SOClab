@@ -82,7 +82,12 @@ Click the drive and click `Configuration Management` then `Create Virtual Disk`.
 
 ![9.jpeg](/images/9.jpeg)
 
-Make sure to select `Physical Disks` and put in the HDD or SDD you wish to use. In my case I only have a single SDD. Name your virtual disk and default settings are fine so click `Create Virtual Disk`
+After configuring you’ll see the virtual disk ready to go. Exit and save everything. Restart the server and press F11 for the `Boot Manager`
+![10.jpeg](/images/10.jpeg)
+
+### Step 8:
+Unfortunately I forgot to take a screenshot of this step. But its pretty easy. Just switch the boot order to boot from your Proxmox OS you already configured. After that reboot and you will find yourself at this screen. 
+![11.jpeg](/images/11.jpeg)
 ### Step 3: Download Proxmox onto a USB (Stable version)
 
 ### Step 4: Update network settings to connect to Proxmox UI
