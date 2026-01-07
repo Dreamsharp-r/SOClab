@@ -4,11 +4,35 @@
 
 Document the end-to-end process of bringing a server online, installing a hypervisor, configuring management access, adding in segmentation and security via a firewall, partitioning for windows and linux users and lastly adding in a SIEM. 
 
-## Scope
+## Phases
+
+Phase 1 - Core Infrastructure
+  - Install 
+Phase 2 - Management Plane
+
+Phase 3 - Corporate Plane
+
+Phase 4 - Security Plane
+
+Phase 5 - Isolated Malware Analysis lab
+
+Phase 6 - Attacker Plane
+
+
 
 
 ## Network Diagram
+  
 
+10.0.1.0/24 MANAGEMENT (pfSense, Hypervisor)
+10.0.2.0/24 ATTACK_NET (Kali)
+10.0.3.0/24 SECURITY_NET (Security Onion management)
+10.0.4.0/24 SNIFF (Security Onion)
+10.0.5.0/24 Corporate_LAN (Fake user space)
+10.0.6.0/24 MALWARE_LAB 
+10.0.7.0/24 Servers
+10.0.10.0/24 ADMIN_WG_VPN (Wireguard)
+10.0.20.0/24 USER_WG_VPN (Wireguard)
 
 ## Hardware Overview
 
