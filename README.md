@@ -9,7 +9,7 @@ Document the end-to-end process of bringing a server online, installing a hyperv
 Phase 1 - Core Infrastructure
   - Install 
 Phase 2 - Management Plane
-
+k
 Phase 3 - Corporate Plane
 
 Phase 4 - Security Plane
