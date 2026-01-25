@@ -128,6 +128,28 @@ create snapshots
 
 ## Installing VPN 
 
+## Installing Active Directory
 
+### Step 1:
+
+Prior to creating the VM we need to first add a network driver to Proxmox. 
+
+
+Next, We will add it to pfSense. Go to Interfaces -> Assignments. Then select the dropdown on a new interface to select the newly created vtnet[number]. The vmbr interface you assign in Proxmox will not be the same name as the one you see in pfSense. 
+
+After added we will change the name of the interface to CORPORATE. Enable the interface. Under IPv4 Configuration type set it to Static IPv4. Scroll down to the Static IPv4 Configuration and set your IP and subnet. Leave gateway blank. Important to leave both Reserved network checkboxes uncheck as you are using the private IP space to sand and receive traffic. Then Save. 
+
+Now we download the Windows Server 2019 iso file from Microsoft then upload that to your `local` directory within Proxmox. 
+
+
+After that finishes uploading we now click `Create VM`
+
+
+Custom Installation -> Load Drivers -> Browse -> CD Drive (virtio-win-0.1.271) -> amd64 -> w10
+ 
+
+Virtual drivers for Windows
+[
+](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers)
 
 
